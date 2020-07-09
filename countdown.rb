@@ -14,6 +14,6 @@ def countdown (number)
 end
 
 
-def countdown_with_sleep
+def countdown_with_sleep (runtime)
   runtime = Benchmark.measure { countdown_with_sleep(5) }
 end
