@@ -3,10 +3,11 @@
 def countdown (number)
   number = 10
   
-  while countdown > 10
+  while countdown > 0
   puts "{number} SECOND(S)!"
   
-  when coundown 
+  when coundown == 0
+    return ""
 end
 
 
